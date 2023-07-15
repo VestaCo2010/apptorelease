@@ -1,0 +1,5 @@
+singleton Style Style.qml
+singleton Icon  Icon.qml
+singleton Language  Lang.qml
+
+

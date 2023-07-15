@@ -1,0 +1,38 @@
+#ifndef USERMANAGEMENTSERVICE_H
+#define USERMANAGEMENTSERVICE_H
+
+#include <QUrl>
+#include <QObject>
+#include <QJsonObject>
+#include <QJsonDocument>
+
+#include "../../da/NetworkHandler.h"
+
+class UserManagementService : public NetworkHandler
+{
+    Q_OBJECT
+
+public:
+
+     UserManagementService();
+     ~UserManagementService();
+     Q_INVOKABLE void getUserProfile();
+
+signals:
+
+     void sigSuccessGetUserProfile();
+     void sigRejectGetUserProfile();
+     
+     void sigInvalidUrl(QString message);
+     void sigValidUrl(QString message);
+     
+public slots:
+
+    void getReceivedDataGetUserProfile(QJsonObject *result);
+    void getReceivedMessageSignIn(QJsonObject *result);
+    void endOffServiceExecution(QString message = {});
+};
+
+};
+
+#endif // USERMANAGEMENTSERVICE_H

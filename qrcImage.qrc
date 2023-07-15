@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/logo/logo_with_title.svg</file>
+        <file>assets/background/box.svg</file>
+        <file>assets/icon/arrow_left.svg</file>
+        <file>assets/icon/language.svg</file>
+        <file>assets/icon/open_gallery.svg</file>
+        <file>assets/icon/footer/vote-register-filled.svg</file>
+        <file>assets/icon/footer/vote-register-regular.svg</file>
+        <file>assets/icon/footer/chart-filled.svg</file>
+        <file>assets/icon/footer/chart.svg</file>
+        <file>assets/icon/footer/profile-filled.svg</file>
+        <file>assets/icon/footer/profile.svg</file>
+        <file>assets/icon/search.svg</file>
+        <file>assets/icon/close.svg</file>
+        <file>assets/icon/gallery/gallery.svg</file>
+        <file>assets/logo/logo.svg</file>
+        <file>assets/icon/no_image.svg</file>
+    </qresource>
+</RCC>
