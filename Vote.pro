@@ -22,8 +22,8 @@ PRODUCT_LICENSE_KEY = "9AF66458AC6D5E81A3C4C78727E779290B3B5274CBE2BBBB7BD6C0EAE
 # qmlFolder.source = qml
 # DEPLOYMENTFOLDERS += qmlFolder # comment for publishing
 
-assetsFolder.source = assets
-DEPLOYMENTFOLDERS += assetsFolder
+# assetsFolder.source = assets
+# DEPLOYMENTFOLDERS += assetsFolder
 
 # Add more folders to ship with the application here
 RESOURCES += qrcQml.qrc \ # uncomment for publishing
